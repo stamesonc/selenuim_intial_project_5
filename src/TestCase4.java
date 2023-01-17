@@ -8,7 +8,7 @@ public class TestCase4 {
 
         WebDriver driver = Driver.getDriver();
 
-        AutoExerciseUtil.getFrontendTesting();
+        AutoExerciseUtil.getAutomationExercise();
 
         System.out.println(driver.findElement(By.cssSelector("p[class='pull-left']")).isDisplayed());
 

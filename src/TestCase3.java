@@ -7,7 +7,7 @@ public class TestCase3 {
     public static void main(String[] args) {
         WebDriver driver = Driver.getDriver();
 
-        AutoExerciseUtil.getFrontendTesting();
+        AutoExerciseUtil.getAutomationExercise();
 
         System.out.println(driver.findElement(By.cssSelector("div[class='single-widget'] h2")).isDisplayed());
         System.out.println(driver.findElement(By.xpath("//form[@class='searchform']//input[2]")).isDisplayed());

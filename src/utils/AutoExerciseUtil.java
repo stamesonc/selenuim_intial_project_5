@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class AutoExerciseUtil {
 
-    public static void getFrontendTesting(){
+    public static void getAutomationExercise(){
 
         WebDriver driver = Driver.getDriver();
 
